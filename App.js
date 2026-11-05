@@ -72,8 +72,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+        <Text style={{textAlign : "center" , fontSize : 20}}>Food Quiz</Text>
       <ScrollView>
-        <Text>Food Quiz</Text>
         {questions.map((item, index) => (
             <QuestionComponent key={index} option_index={item["option"]} setOption_index={item["hook"]} PictureUrl= {item["image"]}/>
         ))}
