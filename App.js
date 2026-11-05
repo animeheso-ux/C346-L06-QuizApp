@@ -79,7 +79,7 @@ export default function App() {
         ))}
       </ScrollView>
 
-      <TouchableOpacity onPress={CheckAnswers} style={{width : 200 , height : 100,backgroundColor : "cyan"}}>
+      <TouchableOpacity onPress={CheckAnswers} style={{width : 100 , height : 50,backgroundColor : "cyan" , borderRadius : 20 ,textAlign : "Center"}}>
         <Text>Submit quiz</Text>
       </TouchableOpacity>
     </View>
