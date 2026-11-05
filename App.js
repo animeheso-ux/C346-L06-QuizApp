@@ -11,6 +11,7 @@ function QuestionComponent({option_index,setOption_index,PictureUrl}) {
   return (
       <>
         <Picker selectedValue={option_index} onValueChange={(value) => setOption_index(value)} style={{width : 250 , height :100}}>
+            <Picker.Item label="Choose Option:" value="null"></Picker.Item>
           <Picker.Item label="Butterfly Pea Latte" value="Butterfly_Pea_Latte"></Picker.Item>
           <Picker.Item label="Coffee" value="Coffee"></Picker.Item>
           <Picker.Item label="Matcha" value="Matcha"></Picker.Item>
