@@ -19,6 +19,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Himalayan-1jOvL.ttf","./assets/fonts/CafeCornerScriptDemo-nAV5J.ttf"]
+        }
+      ]
+    ]
   }
 }
